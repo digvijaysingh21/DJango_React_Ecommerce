@@ -3,4 +3,5 @@ from . import views
 
 urlpatterns = [
    path('vendors/',views.VendorList.as_view()),
+   path('vendor/',views.VendorDetail.as_view()),
 ]
